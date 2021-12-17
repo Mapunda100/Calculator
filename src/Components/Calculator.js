@@ -101,7 +101,6 @@ const Calculator = () => {
 
     function equalsClickHandler(e) {
         e.preventDefault();
-        let value = e.target.innerHTML;
 
         if (calc.num && calc.sign) {
             const math = (a, b, sign) =>
